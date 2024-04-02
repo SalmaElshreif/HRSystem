@@ -1,5 +1,7 @@
 # HRSystem
 
+https://github.com/SalmaElshreif/HRSystem/blob/main/HR%20System.mp4
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Development server
