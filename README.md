@@ -1,6 +1,6 @@
 # HRSystem
 
-https://github.com/SalmaElshreif/HRSystem/blob/main/HR%20System.mp4
+https://github.com/SalmaElshreif/Student-Affairs-System-JavaFX/assets/74679476/72109269-e669-483a-a664-36ff2a59710c
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
