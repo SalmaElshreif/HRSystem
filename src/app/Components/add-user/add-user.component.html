@@ -1,0 +1,49 @@
+<div class="body">
+  <div class="container">
+    <div class="page-title">
+      <h1 class="fs-3 fw-bold">إضافة مستخدم</h1>
+      <hr>
+    </div>
+    <form [formGroup]="userForm">
+      <div class="form first">
+        <div class="details personal">
+          <div class="fields">
+            <div class="input-field">
+              <label>الاسم بالكامل</label>
+              <input type="text" formControlName="Name" placeholder="الاسم بالكامل">
+            </div>
+            <div class="input-field">
+              <label>اسم المستخدم</label>
+              <input type="text" formControlName="User_Name" placeholder="اسم المستخدم">
+            </div>
+            <div class="input-field">
+              <label style="margin-bottom: 15px;">الصلاحيات</label>
+              <select formControlName="Role_Id" id="permissions" style="padding: 12px !important;">
+                <option disabled selected hidden>اختر</option>
+                <option *ngFor="let role of availableRoles" [value]="role.id">{{ role.name }}</option>
+              </select>
+            </div>
+
+            <div class="input-field">
+              <label>البريد الالكتروني</label>
+              <input type="email" formControlName="Email" placeholder="abc12@gmail.com">
+            </div>
+
+            <div class="input-field">
+              <label>الباسورد</label>
+              <input type="password" formControlName="Password" placeholder="الباسورد">
+            </div>
+
+          </div>
+        </div>
+
+        <div dir="ltr" class="buttons">
+          <button class="btn" (click)="onSaveButtonClick()">
+            <span class="btnText">حفظ</span>
+            <i class="btnText bx bx-save"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

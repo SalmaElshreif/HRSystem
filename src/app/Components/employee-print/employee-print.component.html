@@ -1,0 +1,15 @@
+<div *ngIf="employee" class="print-container">
+    <h2>{{ employee.empName }} - Employee Details</h2>
+    
+    <table>
+      <tr>
+        <td><strong>Department:</strong></td>
+        <td>{{ employee.deptName }}</td>
+      </tr>
+      <tr>
+        <td><strong>Basic Salary:</strong></td>
+        <td>{{ employee.netSalary }}</td>
+      </tr>
+    </table>
+</div>
+  
