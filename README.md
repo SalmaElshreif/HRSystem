@@ -1,5 +1,7 @@
 # HRSystem
 
+https://github.com/user-attachments/assets/14f75519-ed39-4e6f-acaf-70e1f2807fcc
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Development server
